@@ -2,7 +2,6 @@
 import requests
 import json
 import time
-#topic_id 41079733
 
 class Comments(object):
     def __init__(self, topic_id):
@@ -10,7 +9,7 @@ class Comments(object):
         self.topic_id = topic_id
         self.response_page_size = 100
         self.headers = {
-            "User-Agent": "testing",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36",
             "x-requested-with": "XMLHttpRequest"
         }
 
